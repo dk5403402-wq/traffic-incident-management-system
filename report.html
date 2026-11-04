@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report Incident</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="color">
+        <header>
+            <h1>Report a Traffic Incident</h1>
+            <div class="upper">
+                <a href="index.html" target="_blank">Back To Home</a>
+            </div>
+            <div class="line"> </div>
+        </header>
+        <br>
+        <br>
+
+        <form action="submit.html">
+            <div class="box">
+                <label for="reporter name">Reporter Name:</label>
+                <input type="text" name="name" id="reporter name" placeholder="Your name" style="height: 30px; width: 250px;" required>
+                <br>
+                <br>
+                <label for="type">Incident Type:</label>
+                <select name="type" id="type" style="height: 30px; width: 250px;" required>
+                    <option disabled selected hidden>Select Incident Type</option>
+                    <option>Road Accident</option>
+                    <option>Traffic Jam</option>
+                    <option>Road Block</option>
+                    <option>Vehicle Breakdown</option>
+                    <option>Other</option>
+                </select>
+                <br>
+                <br>
+                <label for="location">Location:</label>
+                <input type="text" name="location" id="location" placeholder="Enter location" style="height: 30px; width: 250px;" required>
+                <br>
+                <br>
+                <label for="date">Incident Date:</label>
+                <input type="date" name="date" id="date" style="height: 30px; width: 250px;" required>
+                <br>
+                <br>
+                <label for="severity">Severity:</label>
+                <select name="severity" id="severity" style="height: 30px; width: 250px;" required>
+                    <option disabled selected hidden>Select Severity</option>
+                    <option>Low</option>
+                    <option>Medium</option>
+                    <option>High</option>
+                </select>
+                <br>
+                <br>
+                <label for="details">Description:</label>
+                <textarea name="details" id="details" placeholder="Describe the incident" rows="4" cols="32" required></textarea>
+                <br>
+                <br>
+                <button type="submit">Submit Report</button>
+            </div>
+        </form>
+        <br>
+        <br>
+        <br>
+        <br>
+    </div>
+</body>
+</html>

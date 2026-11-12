@@ -1,1 +1,1 @@
-Traffic Incident Management System se shuru karke CSE326, B.Tech Computer Science and Engineering
+Traffic Incident Management System CSE326, B.Tech Computer Science and Engineering

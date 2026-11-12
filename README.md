@@ -31,7 +31,6 @@ A working multi-page website that is live online through GitHub Pages.
 
 ## Team
 - Himanshu
-- Deepak Chauhan
 - Kunal Banik
 
 ## Course
